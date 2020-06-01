@@ -1,3 +1,5 @@
+#run this in powershell using admin privs
+
 Get-AppxPackage *Microsoft.3dbuilder* | Remove-AppxPackage
 Get-AppxPackage *AdobeSystemsIncorporated.AdobePhotoshopExpress* | Remove-AppxPackage
 Get-AppxPackage *Microsoft.WindowsAlarms* | Remove-AppxPackage
